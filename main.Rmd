@@ -15,6 +15,7 @@ output:
     keep_tex: yes
     number_sections: yes
 bibliography: includes/bib/icphs2023.bib
+
 ---
 
 ```{r, 'setup', include=FALSE}
@@ -31,221 +32,155 @@ knit_hooks$set(plot = f)
 
 \section{Introduction}
 
-The following rules apply to all submitted papers:
+Speech is one of the unique features of human beings. In fact, before the 28th week of gestation, human babies hearing system is already operational \cite{Eggermont/Moore:2012}. As soon as we are born, we count with the ability to discriminate phonetic contrasts of all languages: universal speech perception \cite{Gervain:2022}. Through sensory language and statistical learning, among others, they acquire language-specific speech perception by the age of six months, and are able to produce language-specific speech sounds by the age of ten months \cite{Gervain:2022}.
+
+However, there is a countless amount of factors that modify the canonical timeline of acquisition and production of sounds. In the case of bilinguals, early learners of two languages need to detect language-specific patterns so to properly produces the sounds of each language. On the other side, late bilinguals, sometimes described as those who learn their second language by the age of 7, the acquisition of sounds seems to work differently. Here, we will follow what the Second Language Linguistic Perception Model (L2LP) assumes: late learners fully copy their L1 perceptual system and adjust it when necessary so to fit the L2 sounds \cite{vanLeussen/Escudero:2015}.
+
+Similarly, the picture can get more complex when diving into the polyglots context. In 2022, one-quarter (24.7%) of working-age adults (defined here as people aged 25-64 years) in the EU reported that they knew 2 foreign languages, but also 12.3% stated knowing 3 or more \cite{Eurostat:2024}. Regardless of these numbers, the theoretical background of L3 acquisition of sounds is still behind \cite{Wang/Nance:2023}. This study aims to expand the L2LP to L3 learners by analyzing two of the most prominent factors that seem to favor the fully transfer of the L1/L2 perceptual systems into the new L3 system so to modify it with the new L3 categories. The factors this paper considers are language proximity and language acquisition order. Lastly, given that most of the L3 research includes only Indo-European languages \cite{Wang/Nance:2023}, this study includes a Koreanic language: Korean.
+
+\section{Literature Review}
+
+\subsection{L2 Acquisition of Sounds}
+
+L2 acquisition of sounds is a widely researched field, including multiple models that diverse from each other in both their conclusions. In this study, the model adopted is the L2LP \cite{vanLeussen/Escudero:2015}), which states that the acquisition of sounds is perceptually driven, and deals with the contrasts of the sounds in the languages. The L2LP assumes that L2 learners create a L2 perceptual system by fully copying the L1 system. During the initial stages of learning the L2 phonological system, the learners can encounter three learning scenarios:
 
 \begin{itemize}
-  \item they must be written in English
-  \item they must not contain the name(s) of the author(s) (for
-anonymous review)
-  \item the maximum is four pages for Congress papers, plus up to one additional page of references. Papers for Plenary lectures can be longer
-  \item they must be submitted in PDF format (cf.\ Section~4)
-  \item the paper submission will occur via a web interface
+\item Similar Scenario: the L2 categories match those of the L1, and the learner only needs to briefly adjust the boundaries of the sounds. This is seen as a relatively easy scenario for the learner.
+\item New Scenario: the L2 categories do not match those of the L1, and the learner needs to form new phonetic categories. This is seen as a hard scenario for the learner.
+\item Substet Scenario: the L2 categories are mapped to multiple L1 categories. This is seen as a hard scenario for the learner.
 \end{itemize}
-This paper template can be found on the conference website. If there
-are special questions or wishes regarding paper preparation and
-submission for ICPhS 2023, correspondence should be addressed to
-icphs2023@guarant.cz. Information for full paper submission will be
-available on the web at \url{https://www.icphs2023.org/}.
 
+As a result, the L2LP assumes that the phonological systems of both languages are separated and only activated when selected. The learners moves from the initial to the developmental and to the end state through L2 learning experience \cite{Wang/Nance:2023}.
 
-\section{Page layout and style}
+\subsection{L3 Acquisition of Sounds}
 
-The page layout should conform to the following rules. By far the easiest way to meet these requirements is to use the supplied templates and check details against this example file. If for some reason you cannot use the template, please follow these rules as carefully as possible, or contact the editors at icphs2023@guarant.cz for further instructions.
-
-\subsection{Basic layout features}
+Although the L2LP does not predict how do the L3 learners develop a third perceptual system, or if they do so, researchers have adjusted their assumptions and investigated L3 acquisition of sounds adapting them \cite{Wang/Nance:2023}. Regardless of not having a great amount of models to understand this phenomena, what remains clear is that L3 acquisition is more complex than L2 acquisition, for the significant factors considered when talking about bilinguals are more tangled in the case of multilinguals. Wang and Nance \cite{Wang/Nance:2023} reviewed the L3 phonological acquisition experimental and theoretical studies published up to date, identifying the following factors that contribute to the transfer from the L1 and/or L2 into the L3 in terms of perception and production:
 
 \begin{itemize}
-\item The layout is appropriate for A4 format.
-\item Two columns are used
-  except for the title part and possibly for large figures that need a
-  full page width.
-\item Left margin is 20 mm. Right margin will depend on
-  the size of the paper. Column width is 80 mm.
-\item Spacing between
-  columns is 10 mm.
-\item Top margin 25 mm (except first page which has 30
-  mm to the title top). Bottom margin will depend on the size of the
-  paper.
-\item Text height (without headers and footers) is a maximum of
-  235 mm.  Headers and footers should be left empty
-\item Check indentations
-  and spacings by comparing with this example file.
+\item Language proximity
+\item Proficiency
+\item L2 status
+\item L3 experience
 \end{itemize}
 
-\subsubsection{Headings}
+In the case of language proximity, here it is understood as the degree up to which two or more languages are similar in terms of typology, sounds and grammar, among others. For instance, two languages belonging to the same linguistic family might be closer, such as Spanish and French, both being Romance languages. However, Spanish and English might be less close, for English is a Germanic language. Ringbom and Jarvis \cite{Ringbom/Jarvis:2009} indicate that L3 learners tend to elicit more cross-linguistic transfer between languages when those are more similar. For instance, Liu et al. \cite{Liu/Zeng/Lu:2019} studied the acquisition of voiced/voiceless stops in CH-EN bilinguals who were learning different L3s (Japanese, Russian, and Spanish). In a discrimination task, they found that the difficulty in perceiving L3 voiceless stops was related to the similarity in the phonemic range of the learner's L1 and L2.
 
-Section headings are centered in boldface with capitalized letters. Sub-headings start at the left margin in the column with the first letter capitalized and the rest of the heading in lower case. Sub-sub-headings appear like sub-headings, except that they are in italics and not boldface. See examples in this file. No more than 3 levels of headings should be used.  Empty lines should be left above and below each section heading.
+Regarding proficiency, research needs to specify if it is L1, L2 or L3 proficiency that is taken into account. Here, the level of proficiency considered is that of the three languages. Others have already focused on reviewing the impact of the proficiency in L3 learning. Cal and Sypianska \cite{Cal/Sypianska:2020} measured the interaction between the level of proficiency of the L2 and L3 in PO-EN bilinguals learning Spanish. In a word reading task, the participants produced all Spanish vowels /a, e, i, o, u/. The results indicated that the role of the L2 and L3 proficiency interacts with how each vowel is produced. 
 
-\subsection{Text font}
+\subsection{Vowel Sounds}
 
-Times or Times New Roman font is used for the main text. Recommended font size is 11 points. Other font types may be used if needed for special purposes. If using any non-Unicode fonts, these must be embedded in the final PDF file.
+While language proximity and proficiency are the factors analyzed in this study, it is important to remark what linguistic trait the article reviews. In this case, we have chosen vowel sounds. Language acquisition of vowels is relevant for infants, who extract and generalize repetition-based structures through the vocalic tier \cite{Hochmann/etal:2011}, but also for those who need to learn foreign vowels, more specifically distinguishing the contrast between their L1 and the learning languages.
 
-The \LaTeX{} template can be used either with plain \LaTeX{} or \XeLaTeX.
+When considering the common classification of vowels (tongue height, backness and lip rounding; \cite{Hualde/Colina:2014}), along with the number of vowel sounds, there are significant differences between Spanish, English and Korean. While Spanish is a small system with 5 vowel sounds, English counts on a dense vowel space (12 vowel sounds). Korean, however, sits somewhere in the middle, closer to English in terms of numbers, for it is usually described as having 8 vowel sounds.
 
-\subsection{Figures}
-
-All figures should be centered on the column (or page, if the figure
-spans both columns). Figure captions should follow each figure and
-have the format given in Fig. \ref{fig:vowels}.
-
-Figures should preferably be line drawings. If they contain grey
-shades or colours, it should be checked that they print well on a
-high-quality noncolour laser printer.
-
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=6cm]{./includes/figures/ipa.eps}
-\caption{The vowel chart used in the International Phonetic
-Alphabet (IPA).}\label{fig:vowels}
-\end{center}
-\end{figure}
-
-\subsection{Tables}
-
-An example of a table is shown as Table~\ref{tab:decibel}.  Somewhat
-different styles are allowed according to the type and purpose of the
-table. Colour should not be used, but grey shading is allowed. There
-should be a margin of 6~points (pt) above and below the table.
-
-The caption text may be above or below the table, but this should be
-consistent throughout the submission. Left and right indentation of
-the caption should be 0.5~cm.
+More specifically, all vowel sounds overlap across Spanish, English, and Korean. For instance, the sounds /e/ and /u/, as shown in tables 1 and 2. All of them are relatively high-frequent, although /e/ might show slight differences, for it tends to appear as the diphthong \textipa{/eI/}. On the contrary, English and Korean share some sounds that Spanish does not.
 
 \begin{table}[!ht]
   \begin{center}
-  \begin{tabular}{|c|c|}
+  \begin{tabular}{|c|c|c|c|}
   \hline
   \rowcolor[gray]{.75}
-  ratio    & Decibels\\
+  Language & Word & Meaning (English) & IPA \\
   \hline
-  $1/1$    & $0$\\
-  $2/1$    & $6$\\
-  $3.16$   & $10$\\
-  $1/10$   & $-20$\\
-  $10/1$   & $20$\\
-  $100/1$  & $40$\\
-  $1000/1$ & $60$\\
+  Spanish & mesa & table & \textipa{/mesa/} \\
+  English & bait & bait & \textipa{/beIt/} \\
+  Korean  & bae  & pear/boat & \textipa{/pe/} \\
   \hline
   \end{tabular}
-  \caption{This is an example of a table showing Decibel (dB)
-  ratios.}\label{tab:decibel}
+  \caption{Examples of words containing the vowel /e/ in Spanish, English, and Korean (romanized).}\label{tab:word_examples}
   \end{center}
 \end{table}
 
-\subsection{Equations}
+\begin{table}[!ht]
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+  \rowcolor[gray]{.75}
+  Language & Word & Meaning (English) & IPA \\
+  \hline
+  Spanish & luna & moon & \textipa{/luna/}\\
+  English & boot & boot & \textipa{/but/} \\
+  Korean  & mu   & radish & \textipa{/mu/} \\
+  \hline
+  \end{tabular}
+  \caption{Examples of words containing the vowel /u/ in Spanish, English, and Korean (romanized).}\label{tab:word_examples_u}
+  \end{center}
+\end{table}
 
-Equations should be placed on separate lines and numbered. An example
-of an equation is
+The sounds \textipa{/E/} and \textipa{/V/} are absent in Spanish but present in English and Korean. This distribution can be seen in table 3. As such, these four vowels can be used to learn about the L3 acquisition factors that influences the choice of what language to transfer the sounds from, an L1 or L2. In this case, Spanish-English bilinguals learners of Korean would need to create a new sound category for the Korean vowel if they are fully coping the Spanish system, but it would not be needed if they were to copy the English system. Here, the factors considered earlier, such as language proximity and proficiency might shape this process.
+
+\begin{table}[!ht]
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+  \rowcolor[gray]{.75}
+  Vowel & Language & Word & IPA \\
+  \hline
+  \textipa{/E/} & Spanish & — & — \\
+  \textipa{/E/} & English & bet & \textipa{/bEt/} \\
+  \textipa{/E/} & Korean  & sae (bird) & \textipa{/sE/} \\
+  \hline
+  \textipa{/V/} & Spanish & — & — \\
+  \textipa{/V/} & English & cut & \textipa{/kVt/} \\
+  \textipa{/V/} & Korean  & eo (interjection “uh”) & \textipa{/V/} \\
+  \hline
+  \end{tabular}
+  \caption{Examples of the vowels \textipa{/E/} and \textipa{/V/} in Spanish, English, and Korean (romanized).}\label{tab:vowel_examples}
+  \end{center}
+\end{table}
+
+\section{This Study}
+
+This study reviews L3 acquisition of sounds and asks what perception system does the L3 learner fully copy, that of the L1 or the L2, and what factor plays a stronger role in this transfer. For this, the research question is (RQ1) what weights more in L3 sounds acquisition: language order or language proximity? It is hypothesized that (H1) bilinguals learning a new L3 fully transfer the perceptual space of the most similar language, regardless of the acquisition order of the L1 and L2. It is predicted that (P1) in terms of perception, participants will identify the sounds as belonging to the most similar language, regardless of the order of acquisition, and that (P2) in terms of production, participants will produce vowel sounds closer to the most similar language, again, regardless of the order of acquisition.
+
+\section{Methods}
+
+\subsection{Participants}
+
+30 advanced late bilinguals participated in the study. There was a first group of 15 L1 English, L2 Spanish participants (mean age = 20.3 years) and a second one of 15 L1 Spanish, L2 English participants (mean age = 21.7 years). All participants had acquired their L2 in a foreign language classroom setting (mean AoA = 19 years), and reported having lived in a L2-speaking country for at least two years. Participants were undergraduate students at Rutgers University at the moment of completing the study, and received course credit after participation.
+
+Given that previous research shows that beginner L3 learners are more prompt to notice the acoustic contrasts between their languages \cite{Wrembel/etal:2019}, participants were early learners of the L3. Aside of their main two languages, all participants were enrolled in a Introduction to Korean II course as third language. Participants were at the end of the second semester taking the course. No participants reported knowing another language.
+
+\subsection{Materials}
+
+\subsubsection{Screening Tests}
+
+To determine eligibility for the study, participants completed a brief online survey before conducting the experiment. To assess their bilingual profile, participants completed an adaptation of the Language and Social Background Questionnaire (LSBQ, \cite{Anderson/etal:2018}) and the LexTALE, (\cite{Lemhofer/Broersma:2012}).
+
+The LSBQ \cite{Anderson/etal:2018} is a self-reporting tool that assesses language use across various contexts, language proficiency in multiple skills, age of acquisition, and language switching and mixing. Its full version contains 62 items. Participants completed the adaptation of the LSBQ in their L1. Its completion should take around 15 minutes.
+
+The LexTALE \cite{Lemhofer/Broersma:2012} is a proficiency test containing 60 items. Generally designed to screen bilinguals, participants have to decide whether the word they see is a real word or not (Yes/No decision). It is a reliable and valid test, created for English and adapted into other languages \cite{Lemhofer/Broersma:2012}. Participants completed the LexTALE in their L2 and Korean. The test should take approximately 10 minutes per language to complete. 
+
+\subsubsection{Discrimination Task}
+
+Participants completed a discrimination task so to evaluate their vowels perception. Materials included 30 pseudo-artificial Korean words containing the vowel sound \textipa{/E/}, 30 pseudo-artificial Korean words containing  the vowel sound \textipa{/V/}, and 30 pseudo-artificial Korean words containing the vowel sound \textipa{/e/}. The words containing \textipa{/E/} and \textipa{/V/} were target words, for they included vowel sounds shared with English and Korean. The words with the \textipa{/e/} sound were used as distractors, for that sound appears in the three languages. Distractors were not considered in the statistical analysis. Words were divided into two different blocks, each containing 20 words from each vowel sound. Words were recorded by a professor from the department of Korean at Rutgers University.
+
+\subsubsection{Reading Aloud Task}
+
+Participants completed a reading aloud task so to evaluate their vowels production. Materials included 20 Korean words containing the vowel sound /u/, which were embedded into carrier phrases, such as example, and 20 Korean words containing the vowel sound /u/, which were also embedded into carrier phrases with the same structured. Words were matched for length, frequency, and controlled for difficulty. Four professors from the department of Korean at Rutgers University graded the words' difficulty on a scale from 1 to 5. Those words which received a score of 3 or higher were discarded and new ones were included, which were also graded for difficulty. Sentences were divided into two different blocks, each containing 10 sentences from each vowel sound.
+
+\subsubsection{Procedure}
+
+Before conducting the experiment, participants were tested for eligibility into the study. Participants completed online the LSBQ and LexTALE in their L2 and Korean. Once eligibility was confirmed, participants signed the consent form and were accepted into the study.
+
+First, they were welcomed into the RAP lab at Rutgers University. Then, they were instructed to sit comfortably in a chair and completed the Discrimination Task. While giving instructions, the person conducting the experiment used both English and Spanish to favor a bilingual mode environment. The participants were told that they would listen to Korean monosyllables and, as soon as hearing them, would need to decide if the words sounded more English-like or Spanish-like. Words were presented in a Apple monitor with a white background and on black Arial 11 font. Participants then completed three practice trials, which were not included in the experimental trials. Then, the task started. After finishing the two blocks, participants were invited to take a brief rest.
+
+After resting for a few minutes, participants completed the Reading Aloud Task. This time, participants went to a sound-attenuated booth where they could seat comfortably in front of a screen. They also had a table-mounted microphone to record their speech. Participants were instructed to read as naturally as possible each phrase. Following \cite{Amengual:2018}, participants were asked to male a pause at the word boundary so to reduce as much as possible the effects of the surrounding phonological context.
+
+\subsubsection{Acoustic Analysis}
+
+The Korean words produced in the Reading Aloud Task were manually segmented in Praat. Praat scripts were used to divide each participant's recording into individual files for each target item, creating a text grid for each token, and normalizing the peak intensity. Then, each vowel type was added manually into the text grid. Finally, another Praat script was used to extract formant values at the vowel midpoint for each token and written into a .csv file.
+
+\subsubsection{Statistic Analysis}
+
+In the case of the Discrimination Task, a perception model was fit. The response type was taken as a sound sensitivity measurement. Using R \cite{RCore:2025}, responses were categorized by vowel type and then divided between true positives (participant is able to recognize the sound as belonging to their similar language), or false negative (participant is not able to recognize the sound as belonging to the most similar language). The sensitivity measure was calculated then with the following formula \cite{Shreffler/Huecker:2023}:
 \begin{equation}\label{eq:tzero}
-T_0 = \frac{1}{f_0}.
+Sensitivity = \frac{True Positives}{True Positives + False Negatives}.
 \end{equation}
-Numbers of equations can be on the right or on the left margin of the
-text column.
 
-\subsection{Examples}
-
-Examples from other languages can either be presented in the body text, or, if referred to elsewhere or particularly long and complex, can be put on a separate, numbered line, as should be done for equations.
-
-\subsection{Phonetic fonts}
-
-We recommend that you use the \textsc{tipa} package for IPA phonetic symbols. For information about how to access Unicode fonts in the Word template, see \cite{IPA-SIL} or \cite{IPA-KEYBOARD}. The font you use must be embedded. Please remember to check this,  e.g. by inspecting the ``Document Properties --- Fonts'' in Acrobat Reader.
-
-
-\subsection{Page numbering}
-
-Page numbers will be added electronically to the document
-later. \textit{Please do not add page numbers and please do not insert
-any footers or headers!}
+For the Reading Aloud Task, a production model was fit. Formant values were compared within-subjects and identified as more L1- or L2-like. Although proficiency was controlled, an extra model for both perception and production was fit includingn it so to measure its effect.
 
 \subsection{References}
-
-Please use just the reference number in square brackets. Formulations
-with author names like "\ldots\ as Ladefoged \cite{Ladefoged:2003}
-showed that \ldots" are acceptable but not "as shown in [Ladefoged,
-3]" or "as shown in (Ladefoged [3])".
-
-References are to be numbered in alphabetical order. Please
-double-check the final version of your paper with regard to the
-correct correspondence of references to their numbers.
-
-\subsection{Hyperlinks}
-
-Links to URLs or email addresses should be formatted as normal text,
-\textit{not} as hyperlinks and not blue or underlined etc. Usually
-hyperlinks to web pages are listed in the references section. If
-required, line breaks can be placed within URLs after slashes or
-dashes (cf.~\cite{IPA-SIL,IPA-KEYBOARD}), but doublecheck that no hyphens
-are inserted.
-
-\subsection{Footnotes and endnotes}
-
-If footnotes cannot be avoided they should appear as
-endnotes.\footnote{This footnote appears here as an endnote.}
-
-\section{Multimedia files}
-
-Multimedia data that are part of the paper are to be embedded in the submitted PDF; they cannot be submitted as supplementary data. Any images are to be included in the paper as Figures (see Section 2.3 above). It is the authors' responsibility to check image quality ahead of submission. Audio examples are to be embedded within the PDF. To do this, authors can generate the PDF, and then embed the audio files using Adobe Acrobat Professional, or other software that offers the same outcome, so that the audio is included in the PDF. The presence of audio data should be identified in the text.
-
-We encourage authors to illustrate video data using still photographs from the video, and to include them as figures in the PDF.  We cannot accept embedded video files, but authors are welcome to refer readers to a URL on the internet where these can be viewed.
-
-
-\section{PDF details}
-
-PDF files submitted must comply with the following requirements:
-
-\begin{enumerate}
-\item all special fonts and symbols must be embedded in the PDF
-  file so that correct rendering of the PDF does not depend on the
-  fonts installed on the viewer's computer
-\item there must be no
-  password protection on the PDF file, i.e. PDF files must not be
-  protected by PDF security in any way, i.e. content extraction,
-  document assembly, high resolution printing etc. must not be
-  forbidden
-\item PDF files should not contain any colours, hyperlinks,
-  multimedia or 3D content, and no JavaScript or forms
-\item PDF files
-  should be no larger than 5 MB.
-\end{enumerate}
-
-
-\section{Anonymity}
-
-In ICPhS 2023 submissions, an anonymous reviewing process will be used. This means that for the first submission the name(s) of the author(s) and
-their affiliation(s) \emph{must not} be mentioned. In addition, please refrain from using acknowledgements.  Please also try to make your own previous research as anonymous as possible. As an example: do not write "In our previous study \cite{Stevens:1999} we could show\ldots" but "As shown in \cite{Stevens:1999}\ldots". Or refer to your own published or otherwise widely known work, and to that of the other authors, in the "Julius Caesar style", i.e. in the third person (for example: his work, her work, their work). Reference as "anonymous" only work that you or the other authors have submitted for publication, but which has not yet been published, e.g. \cite{Anonymous:submitted}.
-
-Please make sure that no author details appear in the Document Properties of the PDF file. \emph{For the revised paper submission author details are of course needed}. Acknowledgements and references to one's own work are possible as usual.
-
-
-\section{Format of references}
-
-References are formatted using the IEEE standard (available in various reference management systems like Zotero or Mendeley). If you do not use a reference management system, please use the examples provided for monographs \cite{Fant:1960}, contributions to volumes \cite{Stevens:1999}, journal articles \cite{Beattie/etal:1982}, articles in conference proceedings \cite{Ladefoged:2003}. Abbreviations of
-well-known conferences and journals are possible \cite{Peterson/Barney:1952}. Software tools \cite{Boril/Skarnitzl:2016} are referenced according to authors' instructions. 
-
-
-\section{R scripts}
-
-You can use knitr code chunks like in any .Rmd document: 
-
-```{r, 'chunk_ex'}
-2 + 2
-```
-
-This includes inline code: 2 + 2 = `r 2 + 2`. 
-
-R scripts can be loaded as well: 
-
-```{r, 'load_script', echo=TRUE, message=FALSE, warning=FALSE}
-source("./includes/scripts/analysis.R")
-```
-
-Which means you have access to any objects assigned in the script, like Figure 
-\ref{fig:ex_plot}: 
-
-```{r, 'ex_plot', fig.align='center', fig.width=2.75, fig.height=1.5, fig.cap.top="This is a figure caption.", fig.pos='h', fig.lp='fig:'} 
-cars_plot
-```
-
 
 \bibliographystyle{./includes/bib/IEEEtran.bst}
 \bibliography{./includes/bib/icphs2023.bib}
